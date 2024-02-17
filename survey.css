@@ -1,0 +1,54 @@
+body {
+  background-image: url(https://www.gastrotravelogue.com/wp-content/uploads/2020/06/spice-header.jpg);
+  padding: 20px;
+  opacity: 0.9;
+ }
+ 
+ h1 {
+   font-size: 40px;
+   margin-top: 0;
+   margin-bottom: 15px;
+   
+ }
+ 
+ h1, p {
+   color: white;  
+   
+ }
+ p {
+   font-size: 20px;
+   font-style: italic;
+ }
+ 
+ id {
+   color: white;
+ }
+ placeholder {
+   left-padding: 25px;
+ }
+ .survey {
+   width: 80%;
+   background-color: burlywood;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+   max-width: 500px;
+ }
+
+ .text-area {
+  margin-top: 5px;
+ }
+
+ .button {
+  background-color: rgb(211, 63, 9);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+ }
+
+ .name-label {
+  margin-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+ }
+ 

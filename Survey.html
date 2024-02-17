@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <body>
+    <div class="survey">
+    
+    <title>College Canteen Food</title>
+    <meta charset="UTF-8">
+    <link href="survey.css", rel="stylesheet">
+    <h1 id="title">College canteen favourite food survey<h1>
+   <p id="description">Thank you for taking the time to help us improve what foods are most popular in our canteen</p>
+   <form id="survey-form">
+  <fieldset> <label id="name-label">Name<input class="name-label" id="name" type="text" placeholder="full-name" required/></label></fieldset>
+  <fieldset> <label id="email-label">Email<input id="email" type="email" placeholder="email-address" required /></label></fieldset>
+<fieldset>
+  <label id="number-label">Age<input id="number" type="number" min="13" max="120" placeholder="age(years)"required /></label></fieldset>
+  <fieldset> <label>Which food do you eat most in our canteen?<input id="Which food do you eat most in our canteen" type="text" required /></label></fieldset> 
+   <fieldset> <label>
+     <select id="dropdown">
+     <option>(select food)</option>
+     <option>Indian</option>
+     <option>Chinese</option>
+     <option>Thai curries</option>
+     <option>Roast dinner</option>
+     <option>All day breakfast</option>
+     <option></option>
+     <option>Prefer not to say</option>
+     <option>Other</option>
+     </select></fieldset> 
+ <fieldset>  <label>Would you recomend our dishes to a friend?</label> 
+  <ol><label>Yes<input type="radio" value="yes" name="no" /></label></ol>
+  <ol><label>No<input type="radio" value="no" name="no" /></label></ol></fieldset> 
+  <fieldset> <label>What would you like to see added to our menu?</label>
+  <ol><label>Pasta<input type="checkbox" value="checkbox"/></label></ol>
+  <ol><label>Stir fry<input type="checkbox" value="checkbox" /></label></ol>
+ <ol> <label>Turkish kebabs<input type="checkbox" value="checkbox" /></label></ol>
+  <ol><label>Tapas<input type="checkbox" value="checkbox" /></label></ol>
+  <ol><label>BBQ grills<input type="checkbox" value="checkbox" /></label></ol></fieldset> 
+    <textarea class="text-area" rows="5" cols="50">Please enter any other information</textarea>
+    <button class="button" id="submit" type="submit" >Submit</button></div></body>
+  </head>
+</html>
